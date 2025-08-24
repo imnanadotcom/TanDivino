@@ -47,4 +47,36 @@ body {
 
 
 
+.momento-10 hr {
+    border: none;          /* quita el estilo por defecto */
+    height: 2px;           /* grosor */
+    background-color: #000; /* color de la línea */
+    margin-bottom: 10px;   /* espacio debajo */
+}
+
+.momento-10 h1 {
+    color: #790b04;
+    text-align: center;
+    font-size: 60px;
+}
+
+.momento-10 p {
+    text-align: justify;     /* 🔹 justifica el texto */
+    margin: 0 40px 20px;         /* 🔹 margen izquierdo y derecho (ajusta el valor) */
+    line-height: 1.6;        /* mejora la lectura */
+}
+
+
+.imagenes-10 {
+    display: flex;
+}
+
+.imagenes-10 .imagen-10 {
+    flex: 1;                 /* todas ocupan el mismo ancho automáticamente */
+    height: 100px;           /* 🔹 altura fija que quieras */
+    object-fit: cover;       /* recorta sin deformar */
+}
+
+
+
 
