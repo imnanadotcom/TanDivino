@@ -104,7 +104,7 @@ body {
     font-size: clamp(14px, 2.1vw, 18px);
 }
 
-.imagenes-10 {
+.imagenes {
     display: flex;
     gap: var(--space-sm);
     padding: var(--space-sm) 0;
@@ -113,7 +113,7 @@ body {
     flex-wrap: wrap;
 }
 
-.imagenes-10 .imagen-b {
+.imagenes .imagen-b {
     flex: 1;
     height: 100px;
     object-fit: cover;
@@ -126,7 +126,7 @@ body {
 }
 
 .momento-9 h2 {
-    color: #790b04;
+    color: #9f6c4f;
     text-align: center;
     font-size: clamp(26px, 6vw, 60px);
     line-height: 1.1;
@@ -137,6 +137,21 @@ body {
 .momento-9 h3 {
     text-align: center;
     font-size: clamp(10px, 6vw, 15px);
+}
+
+.momento-8{
+    padding: var(--space) var(--content-pad);
+    max-width: var(--maxw);
+    margin: 0 auto var(--space);
+}
+
+.momento-8 h2 {
+    color: #c10c19;
+    text-align: center;
+    font-size: clamp(26px, 6vw, 60px);
+    line-height: 1.1;
+    margin-bottom: var(--space-sm);
+
 }
 
 
