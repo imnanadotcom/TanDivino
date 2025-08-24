@@ -3,43 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <title>YSBLF</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
     <header class="barra-superior">
-        <img src=./media/ecomoda.jpg alt="logoBettyLaFea" class="imagen-ecomoda">
+        <img src=./media/ecomoda.jpg alt="Logo de ECOMODA" class="imagen-ecomoda">
         <h2>Mi Portafolio</h2>
+        <p class="site-title">Mi Portafolio</p>
     </header>
 
-    <section class="momentos">
-        <h1>Momentos top de</h1>
-        <h1>"Yo soy Betty, La fea"</h1>
-    </section>
+    <main id="main">
 
-    <section class="hasta">
-       <h3>(Hasta el episodio 176 pq es hasta donde voy) </h3>
-    </section>
+        <section class="momentos" aria-labelledby="page-title">
+            <h1 id="page-title">Momentos top de “Yo soy Betty, la fea”</h1>
+        </section>
 
-    <section class="momento-10">
-       <hr>
-        <h1>10. Armando Drag Queen</h1>
+        <section class="hasta" aria-label="Rango de episodios">
+            <p class="nota">(Hasta el episodio 176 porque es hasta donde voy)</p>
+        </section>
 
-        <p> Uno de los momentos más inesperados y recordados de Yo soy Betty, la fea es cuando Armando Mendoza, en un giro cómico de la historia,
-            aparece transformado en drag queen. Con un atuendo llamativo, maquillaje recargado y peluca extravagante,
-            el personaje abandona su habitual seriedad para protagonizar una de las escenas más icónicas de la novela.
-            Esta situación, cargada de humor y sorpresa, se convirtió en un instante inolvidable para los fans,
-            demostrando la capacidad de la serie para mezclar drama y comedia de manera brillante.</p>
+        <section class="momento-10" aria-labelledby="momento-10-title">
+            <h2 id="momento-10-title">10. Armando Drag Queen</h2>
 
-        <section class="imagenes-10">
-            <img src=./media/10.jpg alt="Armando vestido de drag" class="imagen-10">
-            <img src=./media/10-1.jpg alt="Armando vestido de drag" class="imagen-10">
-            <img src=./media/10-2.jpg alt="Armando vestido de drag" class="imagen-10">
+            <p>
+                Uno de los momentos más inesperados y recordados de Yo soy Betty, la fea es cuando
+                Armando Mendoza, en un giro cómico de la historia, aparece transformado en drag queen.
+                Con un atuendo llamativo, maquillaje recargado y peluca extravagante, el personaje
+                abandona su habitual seriedad para protagonizar una de las escenas más icónicas de la novela.
+                Esta situación, cargada de humor y sorpresa, se convirtió en un instante inolvidable para los fans,
+                demostrando la capacidad de la serie para mezclar drama y comedia de manera brillante.
+            </p>
+
+            <div class="imagenes-10" role="group" aria-label="Imágenes de Armando en drag">
+                <img src="./media/10.jpg"  alt="Armando con vestido rojo, maquillaje y peluca rubia" class="imagen-10">
+                <img src="./media/10-1.jpg" alt="Armando en escenario con luces, gesto sorprendido" class="imagen-10">
+                <img src="./media/10-2.jpg" alt="Primer plano del maquillaje de Armando en drag" class="imagen-10">
+            </div>
         </section>
 
     </section>
 
+    </main>
 
+    <footer class="site-footer">
+        <p>© 2025 Mi Portafolio</p>
+    </footer>
 </body>
 </html>
