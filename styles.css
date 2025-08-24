@@ -4,9 +4,27 @@
     box-sizing: border-box;
 }
 
+:root{
+    --bg:#EEEEEE;
+    --text:#333;
+    --accent-1:#cb3a01;   /* barra "Momentos" */
+    --accent-2:#d20057;   /* barra "hasta" */
+    --brand:#790b04;      /* títulos de momentos */
+    --space: clamp(12px, 2.5vw, 24px);
+    --space-sm: clamp(8px, 1.5vw, 16px);
+    --content-pad: clamp(12px, 3vw, 40px);
+    --maxw: 1200px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Verdana, Geneva, sans-serif;
     line-height: 1.6;
+    background-color: #EEEEEE;
+    color: var(--text);
 }
 
 .skip-link {
@@ -17,67 +35,91 @@ body {
 }
 
 .barra-superior {
-    background-color: white;   /* color de fondo */
-    color: white;             /* color del texto */
-    height: 60px;             /* grosor de la barra */
-    display: flex;            /* para centrar contenido */
-    align-items: center;      /* alinear vertical */
-    padding: 0 20px;          /* espacio a los lados */
+    background-color: white;
+    color: white;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    gap: var(--space-sm);
 }
 
-.imagen-ecomoda {
-    width: 160px;
+.imagen-ecomoda{
+    width: clamp(120px, 18vw, 180px);
+    height: auto;
 }
+
+.page-title {
+    font-weight: 700;
+    font-size: clamp(16px, 2.4vw, 22px);
+}
+
 
 .momentos {
     background-color: #cb3a01;  /* color de fondo */
     width: 100%;                 /* ancho del recuadro (ajústalo) */
-    margin: 30px auto;          /* centrado y separación superior */
-    padding: 20px;              /* espacio interno */
+    margin: var(--space) auto;
+    padding: var(--space);
     text-align: center;
 }
 
-.momentos h1 {
-    color: white;
-    font-size: 50px;
+.momentos h1{
+    color: #fff;
+    font-size: clamp(28px, 6vw, 56px);
+    line-height: 1.1;
 }
 
 .hasta {
     text-align: center;
-    margin: 30px auto;          /* centrado y separación superior */
-    padding: 10px;
-    background-color: #d20057;
+    margin: var(--space) auto;
+    padding: var(--space-sm);
+    background: var(--accent-2);
 }
 
 .hasta p {
     color: white;
     font-weight: bold;
+    font-size: clamp(12px, 2.4vw, 16px);
 }
 
+.momento-10{
+    padding: var(--space) var(--content-pad);
+    max-width: var(--maxw);
+    margin: 0 auto var(--space);
+}
 
 .momento-10 h2 {
     color: #790b04;
     text-align: center;
-    font-size: 60px;
+    font-size: clamp(26px, 6vw, 60px);
+    line-height: 1.1;
+    margin-bottom: var(--space-sm);
+
 }
 
 .momento-10 p {
-    text-align: justify;     /* 🔹 justifica el texto */
-    margin: 0 40px 20px;         /* 🔹 margen izquierdo y derecho (ajusta el valor) */
-    line-height: 1.6;        /* mejora la lectura */
+    text-align: justify;
+    margin: 0 auto var(--space);
+    max-width: 75ch;
+    font-size: clamp(14px, 2.1vw, 18px);
 }
-
 
 .imagenes-10 {
     display: flex;
-    gap: 10px;
+    gap: var(--space-sm);
+    padding: var(--space-sm) 0;
+    max-width: var(--maxw);
+    margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 .imagenes-10 .imagen-10 {
-    flex: 1;                 /* todas ocupan el mismo ancho automáticamente */
-    height: 100px;           /* 🔹 altura fija que quieras */
-    object-fit: cover;       /* recorta sin deformar */
+    flex: 1;
+    height: 100px;
+    object-fit: cover;
 }
+
+
 
 
 
