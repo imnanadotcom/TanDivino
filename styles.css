@@ -1,9 +1,50 @@
-.titulo-principal {
-    text-align: center;
-    color: darkblue;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.texto-principal-chiquito {
-    font-size: 18px;
-    color: gray;
+body {
+    font-family: Verdana, Geneva, sans-serif;
 }
+
+.barra-superior {
+    background-color: white;   /* color de fondo */
+    color: white;             /* color del texto */
+    height: 60px;             /* grosor de la barra */
+    display: flex;            /* para centrar contenido */
+    align-items: center;      /* alinear vertical */
+    padding: 0 20px;          /* espacio a los lados */
+}
+
+.imagen-ecomoda {
+    width: 160px;
+}
+
+.momentos {
+    background-color: #cb3a01;  /* color de fondo */
+    width: 100%;                 /* ancho del recuadro (ajústalo) */
+    margin: 30px auto;          /* centrado y separación superior */
+    padding: 20px;              /* espacio interno */
+    text-align: center;
+}
+
+.momentos h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.hasta {
+    text-align: center;
+    margin: 30px auto;          /* centrado y separación superior */
+    padding: 10px;
+    background-color: #d20057;
+}
+
+.hasta h3 {
+    color: white;
+}
+
+
+
+
