@@ -212,6 +212,49 @@ body {
     font-size: clamp(14px, 2.1vw, 18px);
 }
 
+.momento-5{
+    padding: var(--space) var(--content-pad);
+    max-width: var(--maxw);
+    margin: 0 auto var(--space);
+}
+
+.momento-5 h2 {
+    color: #62e6eb;
+    text-align: center;
+    font-size: clamp(26px, 6vw, 60px);
+    line-height: 1.1;
+    margin-bottom: var(--space-sm);
+
+}
+
+.momento-5 p {
+    text-align: justify;
+    margin: 0 auto var(--space);
+    max-width: 75ch;
+    font-size: clamp(14px, 2.1vw, 18px);
+}
+
+.momento-4{
+    padding: var(--space) var(--content-pad);
+    max-width: var(--maxw);
+    margin: 0 auto var(--space);
+}
+
+.momento-4 h2 {
+    color: #535ca0;
+    text-align: center;
+    font-size: clamp(26px, 6vw, 60px);
+    line-height: 1.1;
+    margin-bottom: var(--space-sm);
+
+}
+
+.momento-4 p {
+    text-align: justify;
+    margin: 0 auto var(--space);
+    max-width: 75ch;
+    font-size: clamp(14px, 2.1vw, 18px);
+}
 
 
 
