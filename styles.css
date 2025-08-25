@@ -35,7 +35,7 @@ body {
 }
 
 .barra-superior {
-    background-color: #EEEEEE;
+    background-color: #1f1f1f;
     color: white;
     min-height: 60px;
     display: flex;
@@ -47,6 +47,7 @@ body {
 .imagen-ecomoda{
     width: clamp(120px, 18vw, 180px);
     height: auto;
+
 }
 
 .page-title {
@@ -56,18 +57,27 @@ body {
 
 
 .momentos {
-    background-color: #cb3a01;  /* color de fondo */
-    width: 100%;                 /* ancho del recuadro (ajústalo) */
-    margin: var(--space) auto;
-    padding: var(--space);
+    background-color: #EEEEEE;
+    width: 100%;
+    padding: 20px;
     text-align: center;
 }
 
-.momentos h1{
-    color: #fff;
-    font-size: clamp(28px, 6vw, 56px);
-    line-height: 1.1;
+.momentos h1 {
+    color: #e84372;
+    font-size: clamp(74px, 5vw, 70px);
+    line-height: 1.2;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
 }
+
+.imagen-header {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
 
 .hasta {
     text-align: center;
@@ -286,9 +296,9 @@ body {
 }
 
 .footer {
-    background-color: #1f1f1f;   /* Fondo oscuro */
-    color: #fafafa;             /* Texto claro */
-    display: flex;              /* Distribuye en fila */
+    background-color: #1f1f1f;
+    color: #fafafa;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 16px 24px;
@@ -301,11 +311,11 @@ body {
 
 .footer-right {
     display: flex;
-    gap: 12px;                  /* Espacio entre iconos */
+    gap: 12px;
 }
 
 .footer-icon {
-    width: 28px;                /* Tamaño de las imágenes */
+    width: 28px;
     height: 28px;
     object-fit: contain;
     transition: transform 0.2s ease;
@@ -313,7 +323,7 @@ body {
 
 .footer-icon:hover,
 .footer-icon:focus {
-    transform: scale(1.1);      /* Efecto al pasar el mouse */
+    transform: scale(1.1);
 }
 
 
