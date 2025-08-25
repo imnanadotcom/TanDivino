@@ -282,7 +282,38 @@ body {
 .dont h2{
     font-size: clamp(10px, 6vw, 15px);
     text-align: center;
+    padding-bottom: var(--space-sm);
 }
 
+.footer {
+    background-color: #1f1f1f;   /* Fondo oscuro */
+    color: #fafafa;             /* Texto claro */
+    display: flex;              /* Distribuye en fila */
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    font-size: 14px;
+}
+
+.footer-left p {
+    margin: 0;
+}
+
+.footer-right {
+    display: flex;
+    gap: 12px;                  /* Espacio entre iconos */
+}
+
+.footer-icon {
+    width: 28px;                /* Tamaño de las imágenes */
+    height: 28px;
+    object-fit: contain;
+    transition: transform 0.2s ease;
+}
+
+.footer-icon:hover,
+.footer-icon:focus {
+    transform: scale(1.1);      /* Efecto al pasar el mouse */
+}
 
 
