@@ -134,6 +134,13 @@ body {
 
 }
 
+.momento-9 p {
+    text-align: justify;
+    margin: 0 auto var(--space);
+    max-width: 75ch;
+    font-size: clamp(14px, 2.1vw, 18px);
+}
+
 .momento-9 h3 {
     text-align: center;
     font-size: clamp(10px, 6vw, 15px);
@@ -154,6 +161,13 @@ body {
 
 }
 
+.momento-8 p {
+    text-align: justify;
+    margin: 0 auto var(--space);
+    max-width: 75ch;
+    font-size: clamp(14px, 2.1vw, 18px);
+}
+
 .momento-7{
     padding: var(--space) var(--content-pad);
     max-width: var(--maxw);
@@ -167,6 +181,35 @@ body {
     line-height: 1.1;
     margin-bottom: var(--space-sm);
 
+}
+
+.momento-7 p {
+    text-align: justify;
+    margin: 0 auto var(--space);
+    max-width: 75ch;
+    font-size: clamp(14px, 2.1vw, 18px);
+}
+
+.momento-6{
+    padding: var(--space) var(--content-pad);
+    max-width: var(--maxw);
+    margin: 0 auto var(--space);
+}
+
+.momento-6 h2 {
+    color: #be9764;
+    text-align: center;
+    font-size: clamp(26px, 6vw, 60px);
+    line-height: 1.1;
+    margin-bottom: var(--space-sm);
+
+}
+
+.momento-6 p {
+    text-align: justify;
+    margin: 0 auto var(--space);
+    max-width: 75ch;
+    font-size: clamp(14px, 2.1vw, 18px);
 }
 
 
